@@ -1,1 +1,4 @@
 /* pages/smslogin/smslogin.wxss */
+.code{
+  width: 60rpx;
+}

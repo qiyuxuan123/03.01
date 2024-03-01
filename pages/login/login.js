@@ -7,7 +7,16 @@ Page({
   data: {
 
   },
-
+  gosmslogin(){
+    wx.navigateTo({
+      url: '/pages/smslogin/smslogin',
+    })
+  },
+  goformlogin(){
+    wx.navigateTo({
+      url: '/pages/formlogin/formlogin',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

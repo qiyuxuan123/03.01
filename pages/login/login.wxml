@@ -1,2 +1,9 @@
-<!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+<view style="text-align: center;">
+  欢迎来到小U商城
+
+
+  <view>
+    <button bind:tap="goformlogin" style="margin-top: 20rpx;height: 100rpx;line-height: 80rpx;width: 90%;margin:auto;background-color: #ff6040;color: #fff;">账号密码登录</button>
+    <button bind:tap="gosmslogin" style="margin-top: 20rpx;height: 100rpx;line-height: 80rpx;width: 90%;margin:auto;background-color: #fff;color: #000;">手机号码登录</button>
+  </view>
+</view>
