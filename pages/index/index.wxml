@@ -1,1 +1,23 @@
-<view></view>
+<view class="home">
+  <view class="header" style="display: flex;align-items: center;justify-content: space-between;background-color: #ff6040;color: #fff;">
+    <view class="logo" style="flex: 1;text-align: center;" >小U商城</view>
+    <view class="search">
+      <van-cell-group>
+        <van-search value="{{ value }}" background="#ff6040" style="border-radius: 20rpx;" placeholder="请输入搜索关键词" />
+      </van-cell-group>
+    </view>
+    <view>
+      <van-icon style="font-size: 40px;" name="shop" />
+    </view>
+  </view>
+  <view class="tab">
+    <van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="标签 1">内容 1</van-tab>
+  <van-tab title="标签 2">内容 2</van-tab>
+  <van-tab title="标签 3">内容 3</van-tab>
+  <van-tab title="标签 4">内容 4</van-tab>
+</van-tabs>
+  </view>
+
+
+</view>
